@@ -35,7 +35,7 @@
 1. Клонируйте репозиторий:
 
 - git clone <repository-url>
-- cd text-analyzer
+- cd textanalyzer
 
 2. Соберите проект:
 
