@@ -164,7 +164,7 @@
 
 2. Использование curl (Linux/Mac/WSL)
 
-### Проверка здоровья
+### Проверка работоспособности
     curl http://localhost:8080/api/text-analysis/health
 
 ### Анализ текста
