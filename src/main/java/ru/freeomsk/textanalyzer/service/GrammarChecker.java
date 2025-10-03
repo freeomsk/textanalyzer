@@ -1,6 +1,5 @@
 package ru.freeomsk.textanalyzer.service;
 
-//import com.textanalyzer.model.GrammarError;
 import org.springframework.stereotype.Service;
 import ru.freeomsk.textanalyzer.model.GrammarError;
 

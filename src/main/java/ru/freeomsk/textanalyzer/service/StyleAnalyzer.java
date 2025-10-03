@@ -104,7 +104,7 @@ public class StyleAnalyzer {
             issues.add(new StyleIssue(
                     matcher.group(),
                     matcher.start(),
-                    "Пассивная конструкция -考虑使用主动语态",
+                    "Пассивная конструкция - рассмотрите возможность использования активного залога",
                     "STYLE_PASSIVE",
                     0.4
             ));

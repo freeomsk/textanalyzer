@@ -101,7 +101,7 @@ public class TextAnalysisController {
             return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR)
                     .body(Map.of(
                             "status", "ERROR",
-                            "message", "Ошибка проверки здоровья: " + e.getMessage()
+                            "message", "Ошибка проверки работоспособности: " + e.getMessage()
                     ));
         }
     }

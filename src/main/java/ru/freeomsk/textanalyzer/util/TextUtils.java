@@ -2,7 +2,6 @@ package ru.freeomsk.textanalyzer.util;
 
 import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class TextUtils {
 
@@ -60,7 +59,7 @@ public class TextUtils {
 
         List<String> words = Arrays.stream(text.toLowerCase().split("\\s+"))
                 .filter(word -> word.length() > 2)
-                .collect(Collectors.toList());
+                .toList();
 
         if (words.isEmpty()) return 0;
 
